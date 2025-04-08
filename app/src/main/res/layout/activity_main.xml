@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:paddingTop="?attr/actionBarSize"
+    a:orientation="vertical"
+    a:gravity="center">
+
+    <TextView
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:text="Fragment Example"
+        a:textSize="24sp"
+        a:gravity="center" />
+
+    <Button
+        a:id="@+id/showPopupMenuButton"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:text="Show Menu" />
+
+    <FrameLayout
+        a:id="@+id/fragmentContainer"
+        a:layout_width="match_parent"
+        a:layout_height="0dp"
+        a:layout_weight="1"
+        a:layout_marginTop="16dp" />
+
+</LinearLayout>
